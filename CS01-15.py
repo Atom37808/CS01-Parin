@@ -1,4 +1,4 @@
-def my_list(thislist):
+def my_list():
     thislist = [5,10,15,20,25,50,20]
 
     for i in range(len(thislist)):
@@ -7,4 +7,4 @@ def my_list(thislist):
             thislist[i] = 200
             print(thislist)
 
-print(my_list(thislist))
+print(my_list())
